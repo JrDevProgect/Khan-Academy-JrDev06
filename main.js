@@ -1,6 +1,6 @@
 const ver = "V1.0.0";
 let isDev = false;
-const repoPath = `https://raw.githubusercontent.com/Niximkk/EduHack/refs/heads/${isDev ? "dev/" : "main/"}`;
+const repoPath = `https://raw.githubusercontent.com/JrDevProgect/Khan-Academy-JrDev06/refs/heads/main/`;
 let device = { mobile: /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Windows Phone|Mobile|Tablet|Kindle|Silk|PlayBook|BB10/i.test(navigator.userAgent), apple: /iPhone|iPad|iPod|Macintosh|Mac OS X/i.test(navigator.userAgent) };
 let user = { username: "Username", nickname: "Nickname", UID: 0 }
 let loadedPlugins = [];
